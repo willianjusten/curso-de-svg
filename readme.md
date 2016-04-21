@@ -96,7 +96,8 @@ Todos os alunos que terminarem o curso irão receber um certificado de conclusã
 
 ## Pré-Venda
 
-Se você já curtiu a ementa e/ou conhece o meu trabalho e quer me apoiar. Estou abrindo a pré-venda no valor de **R$ 150,00** e quando o curso lançar irá custar **R$ 200,00**.
+Se você já curtiu a ementa e/ou conhece o meu trabalho e quer me apoiar. 
+Estou abrindo a pré-venda no valor de **R$ 150,00** e quando o curso lançar irá custar **R$ 200,00**.
 
 Para já fazer a compra, tenho as seguintes opções:
 
