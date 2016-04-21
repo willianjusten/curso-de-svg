@@ -120,6 +120,8 @@ Para já fazer a compra, tenho as seguintes opções:
 
 **Banco Itau**
 
+Quem fizer transferência, manda um email para willianjustenqui@gmail.com com a confirmação. Para ter o seu email salvo.
+
 ### Contato
 
 Qualquer dúvida ou curiosidade, é só mandar um email para willianjustenqui@gmail.com ou então falar comigo através de qualquer rede social. Até mesmo uma issue aqui nesse repositório =)
