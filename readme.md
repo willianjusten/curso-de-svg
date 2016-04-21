@@ -113,8 +113,11 @@ Para já fazer a compra, tenho as seguintes opções:
 ### Transferência
 
 **Nome:** Willian Justen de Vasconcellos
+
 **Agência:** 2971
+
 **Conta:** 25198-4
+
 **Banco Itau**
 
 ### Contato
