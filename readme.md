@@ -90,3 +90,31 @@ Olá! Eu sou Willian. Atualmente Web Engineer na HUGE, onde ajudo a criar novas 
     - Projeto Awesome-SVG e outros
     - Agradecimentos
 
+## Certificado
+
+Todos os alunos que terminarem o curso irão receber um certificado de conclusão
+
+## Pré-Venda
+
+Se você já curtiu a ementa e/ou conhece o meu trabalho e quer me apoiar. Estou abrindo a pré-venda no valor de **R$ 150,00** e quando o curso lançar irá custar **R$ 200,00**.
+
+Para já fazer a compra, tenho as seguintes opções:
+
+### Paypal 
+
+[![paypal](https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SDAQC372R8UVA)
+
+### Pagseguro
+
+[![Pagseguro](https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif)](https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add&itemCode=9734468F919160CCC4B38FA33BDB8735)
+
+### Transferência
+
+**Nome:** Willian Justen de Vasconcellos
+**Agência:** 2971
+**Conta:** 25198-4
+**Banco Itau**
+
+### Contato
+
+Qualquer dúvida ou curiosidade, é só mandar um email para willianjustenqui@gmail.com ou então falar comigo através de qualquer rede social. Até mesmo uma issue aqui nesse repositório =)
