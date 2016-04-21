@@ -86,3 +86,7 @@ Olá! Eu sou Willian. Atualmente Web Engineer na HUGE, onde ajudo a criar novas 
     - Criando e Exportando com Illustrator
     - Usando ferramentas para otimizar
 
+- Busque Conhecimento
+    - Projeto Awesome-SVG e outros
+    - Agradecimentos
+
