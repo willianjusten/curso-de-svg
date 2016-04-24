@@ -16,10 +16,10 @@ Olá! Eu sou Willian. Atualmente Web Engineer na HUGE, onde ajudo a criar novas 
 
 - Introdução ao SVG
     - Introdução do Curso
-    - O que é SVG?
-    - Por que usar SVG?
-    - Quando usar SVG?
-    - Como criar um SVG?
+    - O que é?
+    - Por que usar?
+    - Quando usar?
+    - Como criar?
     - Onde baixar?
 
 - Como usar e suas vantagens/desvantagens?
