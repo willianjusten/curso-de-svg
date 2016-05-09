@@ -16,6 +16,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 - Introdução ao SVG
     - Introdução do Curso
+    - História
     - O que é?
     - Por que usar?
     - Quando usar?
