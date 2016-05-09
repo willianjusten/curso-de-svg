@@ -10,7 +10,7 @@ Existirão alguns projetos ao decorrer do curso, para aplicarmos os conceitos ap
 
 ## Instrutor
 
-Olá! Eu sou Willian. Atualmente Web Engineer na HUGE, onde ajudo a criar novas experiências e tendências para Web. Já trabalhei também em empresas como a Globo.com e Queremos, sempre focando na qualidade e melhor entrega para o usuário. Escrevo bastante no meu blog, falando sobre SVG, CSS, JS e minhas experiências como desenvolvedor.
+Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar novas experiências e tendências para Web através de vários projetos no Brasil e fora dele. Já trabalhei também em empresas como a Globo.com, HUGE e Queremos, sempre focando na qualidade e melhor entrega para o usuário. Escrevo bastante no meu blog, falando sobre SVG, CSS, JS e minhas experiências como desenvolvedor.
 
 ## Ementa
 
