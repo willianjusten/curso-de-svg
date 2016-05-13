@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG como background</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<h1>SVG como background</h1>
+
+<style>
+    .icon {
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+    }
+
+    .icon-music {
+        background-image: url(img/audio_file.svg);
+    }
+
+    .icon-clock {
+        background-image: url(img/alarm_clock.svg);
+    }
+</style>
+
+<i class="icon icon-music"></i>
+<i class="icon icon-clock"></i>
+
+<div class="pros-cons">
+    <p class="good">Podem ser cacheadas</p>
+    <p class="bad">Sem interação de CSS</p>
+    <p class="bad">Sem edição no DOM</p>
+    <p class="medium">Animações só funcionam se estiverem dentro do SVG</p>
+</div>
+
+</body>
+</html>
