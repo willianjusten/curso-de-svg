@@ -31,9 +31,11 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Inline SVG
 
 - A estrutura do SVG
+    - Plano cartesiano
     - ViewBox e ViewPort
     - preserveAspectRatio
     - Formas Básicas
+    - Elemento Path
     - Groups, defs, use e symbol
 
 - Estilizando o SVG
