@@ -40,6 +40,10 @@ svg {
     margin-top: 26px;
 }
 
+.hidden {
+    display: none;
+}
+
 .star {
     fill: red;
 }
