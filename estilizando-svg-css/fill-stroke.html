@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fill e Stroke</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<h1>Fill e Stroke</h1>
+
+<style>
+    .circle {
+        stroke: #000;
+        stroke-width: 5;
+    }
+    .circle-1 {
+        fill: red;
+        stroke-dasharray: 400;
+        stroke-dashoffset: 0;
+    }
+    .circle-2 {
+        fill: blue;
+        fill-opacity: .8;
+    }
+    .circle-3 {
+        fill: green;
+        fill-opacity: .6;
+    }
+
+</style>
+
+<svg width="500" height="150" viewBox="0 0 500 150">
+    <circle class="circle circle-1" r="55" cx="200" cy="70"/>
+</svg>
+
+</body>
+</html>
