@@ -49,7 +49,6 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 - Sistemas de Ícones em SVG
     - Aprimorando o Symbols e Defs
-    - SVG também tem Sprites
     - Usando o Icomoon
 
 - Projeto #2 - Criando um boilerplate em Gulp para gerar sprites
