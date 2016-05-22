@@ -36,10 +36,11 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - preserveAspectRatio
     - Formas Básicas
     - Elemento Path
-    - Groups, defs, use e symbol
+    - Elementos Containers
 
 - Estilizando o SVG
-    - Métodos para estilizar e Peso das Propriedades
+    - Métodos para estilizar
+    - Peso das Propriedades
     - Fill e Stroke
     - Colorindo ícones com mais de uma cor
 
@@ -48,7 +49,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Tornando o SVG adaptativo
 
 - Sistemas de Ícones em SVG
-    - Aprimorando o Symbols e Defs
+    - Fixando o uso de ícones com Symbol
     - Usando o Icomoon
 
 - Projeto #2 - Criando um boilerplate em Gulp para gerar sprites
