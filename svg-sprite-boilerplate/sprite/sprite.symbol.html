@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<script src="https://rawgit.com/jonathantneal/svg4everybody/master/dist/svg4everybody.js"></script>
+		<script>svg4everybody();</script>
+		<title>SVG &lt;symbol&gt; sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		
+<!--
+	
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as inline SVG, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+
+-->
+
+<style type="text/css">
+	.svg-about-dims { width: 48px; height: 48px; }
+	.svg-add_image-dims { width: 48px; height: 48px; }
+	.svg-address_book-dims { width: 48px; height: 48px; }
+	.svg-alarm_clock-dims { width: 48px; height: 48px; }
+	.svg-approval-dims { width: 48px; height: 48px; }
+	.svg-area_chart-dims { width: 48px; height: 48px; }
+	.svg-binoculars-dims { width: 48px; height: 48px; }
+	.svg-biohazard-dims { width: 48px; height: 48px; }
+	.svg-biomass-dims { width: 48px; height: 48px; }
+</style>
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+	
+<!--
+	
+Inline <symbol> SVG sprite
+====================================================================================================
+This is an inlined version of the generated SVG sprite. The single images may be <use>d everywhere
+below within this document. Please see
+
+	https://github.com/jkphl/svg-sprite/blob/master/docs/configuration.md#defs--symbol-mode
+
+for further details on how to create this embeddable sprite variant.
+
+-->
+
+<svg width="0" height="0" style="position:absolute">
+		<symbol viewBox="0 0 48 48" id="about"><path fill="#2196F3" d="M37 40H11l-6 6V12c0-3.3 2.7-6 6-6h26c3.3 0 6 2.7 6 6v22c0 3.3-2.7 6-6 6z"/><g fill="#fff"><path d="M22 20h4v11h-4z"/><circle cx="24" cy="15" r="2"/></g></symbol>
+		<symbol viewBox="0 0 48 48" id="add_image"><path fill="#8CBCD6" d="M40 41H8c-2.2 0-4-1.8-4-4V11c0-2.2 1.8-4 4-4h32c2.2 0 4 1.8 4 4v26c0 2.2-1.8 4-4 4z"/><circle fill="#B3DDF5" cx="35" cy="16" r="3"/><path fill="#9AC9E3" d="M20 16L9 32h22z"/><path fill="#B3DDF5" d="M31 22l-8 10h16z"/><circle fill="#43A047" cx="38" cy="38" r="10"/><g fill="#fff"><path d="M36 32h4v12h-4z"/><path d="M32 36h12v4H32z"/></g></symbol>
+		<symbol viewBox="0 0 48 48" id="address_book"><path fill="#673AB7" d="M38 44H12V4h26c2.2 0 4 1.8 4 4v32c0 2.2-1.8 4-4 4z"/><path fill="#311B92" d="M10 4h2v40h-2c-2.2 0-4-1.8-4-4V8c0-2.2 1.8-4 4-4z"/><path fill="#fff" d="M36 24.2c-.1 4.8-3.1 6.9-5.3 6.7-.6-.1-2.1-.1-2.9-1.6-.8 1-1.8 1.6-3.1 1.6-2.6 0-3.3-2.5-3.4-3.1-.1-.7-.2-1.4-.1-2.2.1-1 1.1-6.5 5.7-6.5 2.2 0 3.5 1.1 3.7 1.3l-.6 6.8c0 .3-.2 1.6 1.1 1.6 2.1 0 2.4-3.9 2.4-4.6.1-1.2.3-8.2-7-8.2-6.9 0-7.9 7.4-8 9.2-.5 8.5 6 8.5 7.2 8.5 1.7 0 3.7-.7 3.9-.8l.4 2c-.3.2-2 1.1-4.4 1.1-2.2 0-10.1-.4-9.8-10.8.3-2.1 1.6-11.2 10.8-11.2 9.2 0 9.4 8.1 9.4 10.2zm-11.9 1.3c-.1 1 0 1.8.2 2.3.2.5.6.8 1.2.8.1 0 .3 0 .4-.1.2-.1.3-.1.5-.3.2-.1.3-.3.5-.6.2-.2.3-.6.4-1l.5-5.4c-.2-.1-.5-.1-.7-.1-.5 0-.9.1-1.2.3-.3.2-.6.5-.9.8-.2.4-.4.8-.6 1.3s-.2 1.3-.3 2z"/></symbol>
+		<symbol viewBox="0 0 48 48" id="alarm_clock"><g fill="#37474F"><path d="M38.5 44.6l-4-4 2.1-2.1 4 4c.6.6.6 1.5 0 2.1-.5.5-1.5.5-2.1 0zM9.5 44.6l4-4-2.1-2.1-4 4c-.6.6-.6 1.5 0 2.1.5.5 1.5.5 2.1 0z"/></g><circle fill="#C62828" cx="24" cy="24" r="20"/><circle fill="#eee" cx="24" cy="24" r="16"/><path fill="#E53935" d="M15.096 33.48l-.566-.566 9.191-9.191.566.565z"/><path d="M23 11h2v13h-2z"/><path d="M31.285 29.654L29.66 31.28l-6.504-6.504 1.626-1.627z"/><circle cx="24" cy="24" r="2"/><circle fill="#C62828" cx="24" cy="24" r="1"/><path fill="#37474F" d="M22 1h4v3h-4z"/><g fill="#37474F"><path d="M44.4 16.2c2.5-3.5 2.1-8.4-1-11.5-3.1-3.1-8-3.5-11.5-1l12.5 12.5zM3.6 16.2c-2.5-3.5-2.1-8.4 1-11.5 3.1-3.1 8-3.5 11.5-1L3.6 16.2z"/></g></symbol>
+		<symbol viewBox="0 0 48 48" id="approval"><path fill="#8BC34A" d="M24 3l4.7 3.6 5.8-.8 2.2 5.5 5.5 2.2-.8 5.8L45 24l-3.6 4.7.8 5.8-5.5 2.2-2.2 5.5-5.8-.8L24 45l-4.7-3.6-5.8.8-2.2-5.5-5.5-2.2.8-5.8L3 24l3.6-4.7-.8-5.8 5.5-2.2 2.2-5.5 5.8.8z"/><path fill="#CCFF90" d="M34.6 14.6L21 28.2l-5.6-5.6-2.8 2.8 8.4 8.4 16.4-16.4z"/></symbol>
+		<symbol viewBox="0 0 48 48" id="area_chart"><path fill="#3F51B5" d="M42 37H6V25l10-15 14 7L42 6z"/><path fill="#00BCD4" d="M42 42H6V32l10-8 14 2 12-9z"/></symbol>
+		<symbol viewBox="0 0 48 48" id="binoculars"><g fill="#37474F"><circle cx="33" cy="16" r="6"/><circle cx="15" cy="16" r="6"/><path d="M46.7 25l-15.3 3H16.7L1.4 25l4.3-7.9C6.8 15.2 8.8 14 11 14h26.2c2.2 0 4.2 1.2 5.3 3.1l4.2 7.9z"/><circle cx="38" cy="30" r="10"/><circle cx="10" cy="30" r="10"/><circle cx="24" cy="28" r="5"/></g><circle fill="#546E7A" cx="24" cy="28" r="2"/><g fill="#a0f"><circle cx="38" cy="30" r="7"/><circle cx="10" cy="30" r="7"/></g><g fill="#CE93D8"><path d="M41.7 27.7c-1-1.1-2.3-1.7-3.7-1.7s-2.8.6-3.7 1.7c-.4.4-.3 1 .1 1.4.4.4 1 .3 1.4-.1 1.2-1.3 3.3-1.3 4.5 0 .2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.3.4-.9 0-1.3zM10 26c-1.4 0-2.8.6-3.7 1.7-.4.4-.3 1 .1 1.4.4.4 1 .3 1.4-.1 1.2-1.3 3.3-1.3 4.5 0 .2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 .1-1.4-1-1-2.4-1.6-3.8-1.6z"/></g></symbol>
+		<symbol viewBox="0 0 48 48" id="biohazard"><path fill="#00A344" d="M24 13c-7.2 0-13 5.8-13 13s5.8 13 13 13 13-5.8 13-13-5.8-13-13-13zm0 22c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z"/><path fill="#00C853" d="M8.5 25.4c4-2.2 9-1.1 11.5 2.5.1.1.2.1.3.1l1.2-.7c.1-.1.2-.2.1-.3 0-.2-.1-.4-.1-.6v-.2-.2-.2c0-.1 0-.1.1-.2 0-.1 0-.1.1-.2 0 0 0-.1.1-.1 0 0 0-.1.1-.1 0 0 0-.1.1-.1l.1-.1.1-.1.1-.1.1-.1.1-.1h.1c.2-.1.4-.2.5-.2.1 0 .2-.1.2-.3v-1.3c0-.1-.1-.2-.2-.2-4.5-.4-8-4.1-8-8.6 0-4.1 3-7.6 6.9-8.4.1 0 .2-.1.2-.3v-.5c0-.1-.1-.2-.2-.2-5.6.9-10 5.8-10 11.7 0 1.3.2 2.6.6 3.8-1.2.2-2.5.7-3.6 1.3-5.2 3-7.3 9.2-5.2 14.5.1.1.2.1.3.1l.3-.2c.1-.1.2-.2.1-.3-1.2-3.8.3-8.1 4-10.1zm30.5-4c-1.2-.7-2.4-1.1-3.6-1.3.4-1.2.6-2.4.6-3.8 0-5.9-4.4-10.8-10.2-11.7-.1 0-.2.1-.2.2v.4c0 .1.1.2.2.3 4 .8 6.9 4.3 6.9 8.4 0 4.5-3.5 8.2-8 8.6-.1 0-.2.1-.2.2V24c0 .1.1.2.2.3.2.1.4.1.6.2l.1.1c.1 0 .1.1.1.1l.3.3.1.1.1.1v.2s0 .1.1.1c0 .1 0 .1.1.2v.7c0 .2 0 .4-.1.6 0 .1 0 .2.1.3l1.2.7c.1.1.2 0 .3-.1 2.6-3.6 7.6-4.8 11.5-2.5 3.6 2.1 5.2 6.3 3.9 10.1 0 .1 0 .2.1.3l.3.2c.1.1.2 0 .3-.1 2.5-5.4.4-11.6-4.8-14.5zm-8.2 18.9c-4-2.2-5.5-7.1-3.5-11.1.1-.1 0-.2-.1-.3l-1.2-.7c-.1-.1-.2 0-.3 0-.2.1-.3.3-.5.3-.1 0-.1.1-.2.1s-.1 0-.2.1c-.1 0-.3.1-.4.1h-.2-.1-.1-.1-.1-.1-.5c-.1 0-.1 0-.2-.1 0 0-.1 0-.1-.1h-.1c-.2-.1-.3-.2-.5-.3-.1-.1-.2-.1-.3 0l-1.2.7c-.1.1-.1.2-.1.3 1.9 4 .4 8.8-3.5 11.1-3.6 2.1-8.2 1.3-10.9-1.7-.1-.1-.2-.1-.3-.1l-.3.2c-.1.1-.1.2-.1.3 3.6 4.5 10.2 5.8 15.4 2.8 1.2-.7 2.2-1.5 3-2.4.8.9 1.8 1.8 3 2.4 5.2 3 11.7 1.6 15.4-2.8.1-.1 0-.2-.1-.3l-.3-.3c-.1-.1-.2 0-.3.1-2.7 2.9-7.3 3.7-10.9 1.7z"/></symbol>
+		<symbol viewBox="0 0 48 48" id="biomass"><path fill="#9CCC65" d="M32 15V7H16v8L6.2 40c-.6 1.5.5 3 2.1 3h31.5c1.6 0 2.6-1.6 2.1-3L32 15z"/><path fill="#8BC34A" d="M32 9H16c-1.1 0-2-.9-2-2s.9-2 2-2h16c1.1 0 2 .9 2 2s-.9 2-2 2z"/><path fill="#2E7D32" d="M28 30c0 4.4-4 8-4 8s-4-3.6-4-8 4-8 4-8 4 3.6 4 8z"/><path fill="#388E3C" d="M31.1 32.6c-2 4-7.1 5.4-7.1 5.4s-2-5 0-8.9 7.1-5.4 7.1-5.4 2 4.9 0 8.9z"/><path fill="#43A047" d="M16.9 32.6c2 4 7.1 5.4 7.1 5.4s2-5 0-8.9-7.1-5.4-7.1-5.4-2 4.9 0 8.9z"/></symbol>
+</svg>
+
+<!--
+====================================================================================================
+-->
+		
+		<header>
+			<h1>SVG <code>&lt;symbol&gt;</code> sprite preview</h1>
+			<p>This preview features two methods of using the generated sprite in conjunction with inline SVG. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+			<ul>
+				<li>Your browser has to <a href="http://caniuse.com/#feat=svg-html5" target="_blank">support inline SVG</a> for these techniques to work.</li>
+				<li>The embedded sprite (A) slightly differs from the generated external one. Please <a href="https://github.com/jkphl/svg-sprite/blob/master/docs/configuration.md#defs--symbol-mode" target="_blank">see the documentation</a> for details on how to create such an embeddable sprite.</li>
+				<li>Internet Explorer up to version 11 doesn't support external sprites for use with inline SVG. For IE 9-11, you may polyfill this functionality with <a href="https://github.com/jonathantneal/svg4everybody" target="_blank">SVG for Everybody</a>.</li>
+			</ul>
+		</header>
+		<section>
+
+<!--
+	
+A) Inline SVG with embedded sprite
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) and are extracted out of the inline sprite
+embedded above. They may be styled via CSS.
+
+-->
+
+			<h3>A) Inline SVG with embedded sprite</h3>
+			<ul>
+
+				<li title="about">
+					<div class="icon-box">
+						
+						<!-- about -->
+						<svg class="svg-about-dims">
+							<use xlink:href="#about"></use>
+						</svg>
+						
+					</div>
+					<h2>about</h2>
+				</li>
+				<li title="add_image">
+					<div class="icon-box">
+						
+						<!-- add_image -->
+						<svg class="svg-add_image-dims">
+							<use xlink:href="#add_image"></use>
+						</svg>
+						
+					</div>
+					<h2>add_image</h2>
+				</li>
+				<li title="address_book">
+					<div class="icon-box">
+						
+						<!-- address_book -->
+						<svg class="svg-address_book-dims">
+							<use xlink:href="#address_book"></use>
+						</svg>
+						
+					</div>
+					<h2>address_book</h2>
+				</li>
+				<li title="alarm_clock">
+					<div class="icon-box">
+						
+						<!-- alarm_clock -->
+						<svg class="svg-alarm_clock-dims">
+							<use xlink:href="#alarm_clock"></use>
+						</svg>
+						
+					</div>
+					<h2>alarm_clock</h2>
+				</li>
+				<li title="approval">
+					<div class="icon-box">
+						
+						<!-- approval -->
+						<svg class="svg-approval-dims">
+							<use xlink:href="#approval"></use>
+						</svg>
+						
+					</div>
+					<h2>approval</h2>
+				</li>
+				<li title="area_chart">
+					<div class="icon-box">
+						
+						<!-- area_chart -->
+						<svg class="svg-area_chart-dims">
+							<use xlink:href="#area_chart"></use>
+						</svg>
+						
+					</div>
+					<h2>area_chart</h2>
+				</li>
+				<li title="binoculars">
+					<div class="icon-box">
+						
+						<!-- binoculars -->
+						<svg class="svg-binoculars-dims">
+							<use xlink:href="#binoculars"></use>
+						</svg>
+						
+					</div>
+					<h2>binoculars</h2>
+				</li>
+				<li title="biohazard">
+					<div class="icon-box">
+						
+						<!-- biohazard -->
+						<svg class="svg-biohazard-dims">
+							<use xlink:href="#biohazard"></use>
+						</svg>
+						
+					</div>
+					<h2>biohazard</h2>
+				</li>
+				<li title="biomass">
+					<div class="icon-box">
+						
+						<!-- biomass -->
+						<svg class="svg-biomass-dims">
+							<use xlink:href="#biomass"></use>
+						</svg>
+						
+					</div>
+					<h2>biomass</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<section>
+
+<!--
+	
+B) Inline SVG with external sprite (IE 9-11 with polyfill only)
+====================================================================================================
+These SVG images make use of an URL + fragment identifiers (IDs) and refer to the regular external
+SVG sprite. They may be styled via CSS. (IE 9-11 with polyfill only)
+
+-->
+
+			<h3>B) Inline SVG with external sprite (IE 9-11 with polyfill only)</h3>
+			<ul>
+				
+				<li title="about">
+					<div class="icon-box">
+						
+						<!-- about -->
+						<svg class="svg-about-dims">
+							<use xlink:href="sprite.svg#about"></use>
+						</svg>
+						
+					</div>
+					<h2>about</h2>
+				</li>
+				<li title="add_image">
+					<div class="icon-box">
+						
+						<!-- add_image -->
+						<svg class="svg-add_image-dims">
+							<use xlink:href="sprite.svg#add_image"></use>
+						</svg>
+						
+					</div>
+					<h2>add_image</h2>
+				</li>
+				<li title="address_book">
+					<div class="icon-box">
+						
+						<!-- address_book -->
+						<svg class="svg-address_book-dims">
+							<use xlink:href="sprite.svg#address_book"></use>
+						</svg>
+						
+					</div>
+					<h2>address_book</h2>
+				</li>
+				<li title="alarm_clock">
+					<div class="icon-box">
+						
+						<!-- alarm_clock -->
+						<svg class="svg-alarm_clock-dims">
+							<use xlink:href="sprite.svg#alarm_clock"></use>
+						</svg>
+						
+					</div>
+					<h2>alarm_clock</h2>
+				</li>
+				<li title="approval">
+					<div class="icon-box">
+						
+						<!-- approval -->
+						<svg class="svg-approval-dims">
+							<use xlink:href="sprite.svg#approval"></use>
+						</svg>
+						
+					</div>
+					<h2>approval</h2>
+				</li>
+				<li title="area_chart">
+					<div class="icon-box">
+						
+						<!-- area_chart -->
+						<svg class="svg-area_chart-dims">
+							<use xlink:href="sprite.svg#area_chart"></use>
+						</svg>
+						
+					</div>
+					<h2>area_chart</h2>
+				</li>
+				<li title="binoculars">
+					<div class="icon-box">
+						
+						<!-- binoculars -->
+						<svg class="svg-binoculars-dims">
+							<use xlink:href="sprite.svg#binoculars"></use>
+						</svg>
+						
+					</div>
+					<h2>binoculars</h2>
+				</li>
+				<li title="biohazard">
+					<div class="icon-box">
+						
+						<!-- biohazard -->
+						<svg class="svg-biohazard-dims">
+							<use xlink:href="sprite.svg#biohazard"></use>
+						</svg>
+						
+					</div>
+					<h2>biohazard</h2>
+				</li>
+				<li title="biomass">
+					<div class="icon-box">
+						
+						<!-- biomass -->
+						<svg class="svg-biomass-dims">
+							<use xlink:href="sprite.svg#biomass"></use>
+						</svg>
+						
+					</div>
+					<h2>biomass</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Mon, 23 May 2016 21:13:56 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>
