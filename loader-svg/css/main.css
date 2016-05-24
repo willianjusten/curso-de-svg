@@ -6,18 +6,12 @@
 }
 
 body {
-    padding: 50px;
+    background: #eee;
 }
 
-p {
-    font-size: 30px;
-    padding: 10px 0;
-}
-
-h1 {
-    margin-bottom: 50px;
-}
-
-h2 {
-    margin: 50px 0 20px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
