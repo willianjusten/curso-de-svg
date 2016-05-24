@@ -55,8 +55,8 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 - Projeto #2 - Criando um boilerplate em Gulp para gerar sprites
 
 - Projeto #3 - Criando um loader com SVG e CSS Animations
-    - Entendendo a animação com keyframes
-    - Criando um loader simples
+    - Editando e preparando o visual do nosso loader
+    - Usando Keyframes para animar
 
 - Animações SVG com SMIL
     - Entendendo o que é SMIL
