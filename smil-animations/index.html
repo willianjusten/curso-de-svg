@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attribute Animation with SMIL</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <svg width="500" height="350">
+      <circle id="circ" r="30" cx="50" cy="50" fill="blue" />
+      <rect id="rect" width="50" height="50" x="25" y="200" fill="orange" />
+
+      <animate 
+                xlink:href="#circ"
+                attributeName="cx"
+                from="50"
+                to="450"
+                dur="3s"
+                fill="freeze"
+                begin="click"
+                id="animation-circle"/>
+
+      <animate 
+                xlink:href="#rect"
+                attributeName="x"
+                from="25"
+                to="425"
+                dur="3s"
+                fill="freeze"
+                begin="animation-circle.begin + 1s"/>
+    </svg>
+  </body>
+</html>

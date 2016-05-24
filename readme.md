@@ -60,8 +60,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 - Animações SVG com SMIL
     - Entendendo o que é SMIL
-    - Criando uma animação simples
-    - Nomeando animações e sincronizando
+    - Criando uma animação simples 
     - Famoso Morph Path
     - Especificando um caminho para a animação
 
