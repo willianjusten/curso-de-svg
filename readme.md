@@ -78,8 +78,6 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Alguns tipos de filtros
     - Aplicando em textos
 
-- Projeto #5 - Criando o efeito de desenho animado antigo
-
 - Acessibilidade no SVG
     - Dicas e informações para deixar tudo mais acessivel
 
