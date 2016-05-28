@@ -66,8 +66,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 - Manipulando SVG com JS
     - Identificando e Estilizando pelo DOM
-    - Criando novos elementos com JS
-    - Definindo atributos
+    - Criando novos elementos com JS e definindo atributos
     - Algumas bibliotecas aconselhadas
 
 - Entendendo o stroke-dasharray e stroke-dashoffset
