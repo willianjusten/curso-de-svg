@@ -77,7 +77,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 - Filtros SVG
     - Alguns tipos de filtros
-    - Aplicando em textos
+    - Criando uma animação com filtros
 
 - Acessibilidade no SVG
     - Dicas e informações para deixar tudo mais acessivel
