@@ -70,7 +70,8 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Definindo atributos
     - Algumas bibliotecas aconselhadas
 
-- Projeto #4 - Desenhando dinâmicamente com SVG
+- Entendendo o stroke-dasharray e stroke-dashoffset
+    - Criando um loader animado usando propriedades do stroke
     - Fazendo o efeito de desenhar
     - Usando o scroll para controlar o desenho
 
