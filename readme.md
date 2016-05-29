@@ -69,7 +69,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Criando novos elementos com JS e definindo atributos
     - Algumas bibliotecas aconselhadas
 
-- Entendendo o stroke-dasharray e stroke-dashoffset
+- Criando animações com as propriedades de Stroke
     - Criando um loader animado usando propriedades do stroke
     - Fazendo o efeito de desenhar
     - Usando o scroll para controlar o desenho
