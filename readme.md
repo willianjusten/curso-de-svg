@@ -65,8 +65,7 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
     - Especificando um caminho para a animação
 
 - Manipulando SVG com JS
-    - Identificando e Estilizando pelo DOM
-    - Criando novos elementos com JS e definindo atributos
+    - Utilizando JS para estilizar e criar novos elementos
     - Algumas bibliotecas aconselhadas
 
 - Criando animações com as propriedades de Stroke
