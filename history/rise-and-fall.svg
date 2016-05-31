@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 1040 480">
+
+  <title>O Nascimento, a Queda e o Crescimento do SVG</title>
+  
+  <style type="text/css">@import url(slider.css);</style>
+  <script id="slideshowLibrary" xlink:href="slider.js" type="text/ecmascript"/>
+  <style type="text/css"><![CDATA[
+  text {
+    fill: #0070b4;
+    font-weight: bold;
+    font-size: 22px;
+   }
+
+   tspan {
+     fill: #0070b4;
+     font-weight: normal;
+     font-size: 18px;
+   }
+   
+   text.timepoint {
+     fill: #0070b4;
+     font-weight: bold;
+     font-size: 16px;
+   }
+   
+     text.timepoint tspan {
+       fill: #0070b4;
+       font-weight: normal;
+       font-size: 12px;
+     }
+
+  ]]></style>
+  
+  
+  <rect id="bg" x="-1000" y="-1000" width="3000" height="3000" fill="white" />
+  <!-- <rect id="frame" x="0" y="0" width="1040" height="480" fill="none" stroke="#0070b4"/> -->
+
+  <text id="head" x="1010" y="50" class="heading" text-anchor="end" fill="#0070b4">O Nascimento, a Queda e o Crescimento do SVG</text>
+
+  <g id="content" font-size="27">    
+    <g class="bullet" visibility="hidden" transform="translate(10,50)">
+      <text x="15" y="232.5" font-size="12" pointer-events="none" text-anchor="middle" transform="rotate(-90,15,212.5)">Número de pessoas usando SVG</text>
+      <text x="50" y="0" text-anchor="end"><tspan x="140" y="370" fill="#0070b4">Poucas</tspan><tspan x="140" y="70" fill="#0070b4">Muitos!</tspan></text>   
+      <line id="line_1" x1="150" y1="360" x2="150" y2="60" stroke="black" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <line id="line_1" x1="150" y1="360" x2="1000" y2="360" stroke="black" stroke-width="3" fill="none" stroke-linecap="round"/>   
+    </g>
+    
+    <g class="bullet" visibility="hidden">
+      <circle cx="200" cy="410" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="200" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">1998
+        <tspan x="200" dy="1.5em">SVG começa</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="200" y1="410" x2="350" y2="380" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="200" cy="410" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="350" cy="380" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="350" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2001
+        <tspan x="350" dy="1.5em">Adobe SVG Viewer 3</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="350" y1="380" x2="550" y2="350" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="350" cy="380" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="550" cy="350" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="550" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2005
+        <tspan x="550" dy="1.5em">Adobe adota o Flash</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="550" y1="350" x2="700" y2="400" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="550" cy="350" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="700" cy="400" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="700" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2008
+        <tspan x="700" dy="1.5em">Apple bloqueia o Flash</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="700" y1="400" x2="800" y2="380" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="700" cy="400" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="800" cy="380" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="800" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2010
+        <tspan x="800" dy="1.5em">IE9</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="800" y1="380" x2="850" y2="350" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="800" cy="380" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="850" cy="350" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="850" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2011
+        <tspan x="850" dy="1.5em">Retina</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="850" y1="350" x2="900" y2="270" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="850" cy="350" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="900" cy="270" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="900" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2012
+        <tspan x="900" dy="1.5em">Android</tspan>   
+      </text>      
+    </g>
+
+    <g class="bullet" visibility="hidden">
+      <line x1="900" y1="270" x2="1000" y2="110" stroke="#0070b4" stroke-width="3" fill="none" stroke-linecap="round"/>   
+      <circle cx="900" cy="270" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      <circle cx="1000" cy="110" r="5" fill="cornflowerblue" stroke="#0070b4" />
+      
+      <text x="1000" y="430" fill="#0070b4" text-anchor="middle" class="timepoint">2016
+        <tspan x="1000" dy="1.5em">Hoje</tspan>   
+      </text>      
+    </g>
+
+  </g>
+  
+
+</svg>
+
