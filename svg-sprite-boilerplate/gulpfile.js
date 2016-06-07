@@ -8,11 +8,11 @@ var config = {
             dest: 'sprite',
             sprite: 'sprite.svg',
             example: true
-        },
-        svg: {
-            xmlDeclaration: false,
-            doctypeDeclaration: false
         }
+    },
+    svg: {
+        xmlDeclaration: false,
+        doctypeDeclaration: false
     }
 };
 
