@@ -92,11 +92,9 @@ Olá! Eu sou Willian. Atualmente Freelance Web Engineer, onde ajudo a criar nova
 
 Todos os alunos que terminarem o curso irão receber um certificado de conclusão
 
-## Pré-Venda
+## Compra
 
 Se você já curtiu a ementa e/ou conhece o meu trabalho e quer me apoiar. 
-
-Estou abrindo a pré-venda no valor de **R$ 150,00** e quando o curso lançar irá custar **R$ 200,00**.
 
 [Link para compra](http://www.eventick.com.br/curso-de-svg)
 
