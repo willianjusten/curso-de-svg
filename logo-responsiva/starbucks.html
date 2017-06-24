@@ -14,6 +14,15 @@
     .container {
         max-width: 700px;
         margin: auto;
+        height: 0;
+        padding-top: 48%;
+        position: relative;
+    }
+
+    .svg-responsive {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
 
     #detalhe-externo,
@@ -46,7 +55,7 @@
 </style>
 
 <div class="container">
-    <svg viewBox="0 0 612 792" preserveAspectRatio="xMidYMid meet">
+    <svg class="svg-responsive" viewBox="0 0 612 792" preserveAspectRatio="xMidYMid meet">
         <g id="detalhe-externo">
             <path id="green_b" fill="#067655" d="M4.9,396C4.9,229.5,139.5,94.9,306,94.9S607.1,229.8,607.1,396
                 c0,166.5-134.9,301.1-301.1,301.1C139.5,697.1,4.9,562.5,4.9,396"/>
