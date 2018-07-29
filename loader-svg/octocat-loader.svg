@@ -13,7 +13,7 @@
         }
 
         #arm {
-            transform-origin: bottom right;
+            transform-origin: 50% 75%;
             animation: swing-arm 1s alternate infinite;
         }
 
